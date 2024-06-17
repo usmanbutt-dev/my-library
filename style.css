@@ -21,10 +21,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    height: 80%;
+    height: 525px;
     width: 500px;
     background-color: brown;
     padding: 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .grid-cell {
@@ -42,10 +47,26 @@ body {
 
 .grid-cell:hover {
     background-color: brown;
-    border: 5px solid rgb(255, 232, 232);
+    border: 5px solid rgb(0, 0, 0);
     transform: scale(1.055);
     -webkit-transform: scale(1.055);
     -moz-transform: scale(1.055);
     -ms-transform: scale(1.055);
     -o-transform: scale(1.055);
+}
+
+.grid-cell-clicked {
+    box-sizing: border-box;
+    width: 33.33%;
+    height: 33.33%;
+    background-color: brown;
+    border: 3px solid rgb(255, 232, 232);
+    border-radius: 50px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
 }
