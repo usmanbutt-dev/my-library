@@ -23,12 +23,29 @@ body {
     box-sizing: border-box;
     height: 80%;
     width: 500px;
+    background-color: brown;
+    padding: 1px;
 }
 
 .grid-cell {
-    border: 1px solid black;
     box-sizing: border-box;
     width: 33.33%;
     height: 33.33%;
-    background-color:bisque;
+    background-color: rgb(255, 232, 232);
+    border: 1px solid brown;
+    border-radius: 50px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.grid-cell:hover {
+    background-color: brown;
+    border: 5px solid rgb(255, 232, 232);
+    transform: scale(1.055);
+    -webkit-transform: scale(1.055);
+    -moz-transform: scale(1.055);
+    -ms-transform: scale(1.055);
+    -o-transform: scale(1.055);
 }
