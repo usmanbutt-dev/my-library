@@ -48,11 +48,16 @@ body {
 .grid-cell:hover {
     background-color: brown;
     border: 5px solid rgb(0, 0, 0);
-    transform: scale(1.055);
-    -webkit-transform: scale(1.055);
-    -moz-transform: scale(1.055);
-    -ms-transform: scale(1.055);
-    -o-transform: scale(1.055);
+    transition: ease-in-out 0.3s;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
 }
 
 .grid-cell-clicked {
@@ -69,9 +74,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100px;
-    transition:ease background  0.4s;
-    -moz-transition:ease background  0.4s;
-    -ms-transition:ease background  0.4s;
-    -o-transition:ease background  0.4s;
-    -webkit-transition:ease background  0.4s;
+    transition:ease 0.4s;
+    -moz-transition:ease 0.4s;
+    -ms-transition:ease 0.4s;
+    -o-transition:ease 0.4s;
+    -webkit-transition:ease 0.4s;
 }

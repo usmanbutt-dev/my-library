@@ -102,5 +102,5 @@ document.addEventListener("DOMContentLoaded", function() {
             console.log('Diagonal (top-right to bottom-left) has a winner!');
         }
     }
-
+    
 });
